@@ -1,0 +1,29 @@
+{
+  "name": "apiresttrello",
+  "version": "1.0.0",
+  "description": "api for information of trello",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauricioGaPe/ApiRestTrello.git"
+  },
+  "author": "MauGaPe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauricioGaPe/ApiRestTrello/issues"
+  },
+  "homepage": "https://github.com/MauricioGaPe/ApiRestTrello#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "trello": "^0.11.0"
+  }
+}
